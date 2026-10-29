@@ -278,7 +278,7 @@
   /* audio */
   const audio = new Audio(C.assets.song);
   audio.loop = true;
-  audio.volume = 0.5;
+  audio.volume = 0.2;
   let wanted = false,
     gateOpened = false;
   const musicButton = $("#mus");
