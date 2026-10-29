@@ -1,0 +1,35 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Taranpreet &amp; Harjasjot · Wedding Invitation</title>
+<meta name="description" content="You are invited to the Anand Karaj of Taranpreet & Harjasjot, Sunday 24 January 2027, Mohali.">
+<meta property="og:title" content="Taranpreet & Harjasjot · Wedding Invitation"><meta property="og:description" content="Anand Karaj · Sunday, 24th January, 2027 · Mohali">
+<meta property="og:type" content="website"><meta property="og:image" content="assets/monogram.png"><meta name="theme-color" content="#F6EBDD">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Jost:wght@300;400;500&family=Noto+Serif+Gurmukhi:wght@400;600&family=Mukta+Mahee:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"></head>
+<body class="locked">
+<div id="gate" role="dialog" aria-label="Invitation" aria-modal="true">
+ <div class="door l"><i class="arch"></i><i class="ring"></i></div><div class="door r"><i class="arch"></i><i class="ring"></i></div>
+ <div class="glow"></div>
+ <div class="seal" id="seal"><div class="onk">ੴ</div><div class="disc"><img src="assets/monogram.png" alt="T & H monogram" width="1536" height="1024"></div>
+  <h1 class="gnames" id="gNames"></h1>
+  <button id="openBtn" class="btn glowbtn" data-i18n="open" autofocus></button>
+  <button class="lang" data-lang-toggle></button></div>
+</div>
+<header class="top" inert><button class="lang" data-lang-toggle></button><button id="mus" class="ico" aria-label="Music" aria-pressed="false" hidden>♪</button></header>
+<canvas id="petals" aria-hidden="true"></canvas>
+<main inert>
+<section id="hero" data-flower="hero"><i class="mandala"></i>
+ <div class="archwrap"><svg viewBox="0 0 220 300" class="archsvg"><path d="M10 296V120C10 50 60 8 110 8s100 42 100 112v176" /></svg><img src="assets/monogram.png" alt="" class="mono" width="1536" height="1024"></div>
+ <h2 class="names" id="hNames"></h2><div class="scratch rv" id="scratch"><div class="under"><span class="date" id="hDate"></span><canvas id="sc" tabindex="0" role="button" aria-label="Scratch to reveal the date"></canvas></div><span class="hint" data-i18n="scratch"></span></div><p class="city rv" data-i18n="city"></p></section>
+<section id="bless" class="band" data-flower="bless"><i class="mandala"></i><div class="onk rv">ੴ</div><p class="grace rv" data-i18n="grace"></p>
+ <div class="verse pa rv" id="verse"></div><div class="div rv"><b></b></div><div class="quote rv" id="quote"></div></section>
+<section id="inv" data-flower="inv"><h3 class="rv" data-i18n="invT"></h3><div class="card rv"><div class="inner" id="cardBody"></div></div></section>
+<section id="cd" class="band" data-flower="cd"><i class="mandala"></i><h3 class="rv" data-i18n="cdT"></h3><div id="cdBoxes" class="boxes"></div><p id="cdMsg" class="msg"></p></section>
+<section id="fn" data-flower="fn"><h3 class="rv" data-i18n="fnT"></h3><div class="tl"><div class="thread"><u id="fill"></u></div><div id="events"></div></div></section>
+<section id="end" data-flower="end"><i class="mandala"></i><div class="div rv"><b></b></div><p class="rv big" data-i18n="thanks"></p><h2 class="names sm" id="eNames"></h2><p class="date rv" id="eDate"></p>
+ <div class="acts rv"><button class="btn" id="bShare" data-i18n="share"></button><a class="btn" id="bWa" target="_blank" rel="noopener" data-i18n="wa"></a><button class="btn" id="bCopy" data-i18n="copy"></button><button class="btn" onclick="print()" data-i18n="pdf"></button></div>
+ <div class="rsvp rv"><h4 data-i18n="rsvp"></h4><div id="rsvp"></div></div><p class="comp rv" id="comp"></p><a class="btn" href="#hero" data-i18n="top"></a></section>
+</main>
+<div id="toast" role="status"></div>
+<script src="config.js"></script><script src="i18n.js"></script><script src="app.js"></script></body></html>
