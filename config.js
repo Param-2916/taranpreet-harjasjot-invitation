@@ -1,6 +1,6 @@
 // All wedding data lives here. Card wording is copied exactly from the printed invitation.
 const CONFIG = {
-  siteUrl: "", // TODO: your final GitHub Pages URL (needed for the WhatsApp preview image)
+  siteUrl: "http://param-2916.github.io/taranpreet-harjasjot-invitation/", // TODO: your final GitHub Pages URL (needed for the WhatsApp preview image)
   assets: {
     monogram: "assets/monogram.png",
     song: "assets/song.mp3",
